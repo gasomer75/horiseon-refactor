@@ -9,14 +9,14 @@ This challenge is to refactor the existing code in urban-octo-telegram to
 meet the following requirements:
 
 HTML
--test on page links and correct errors if necessary
--add 'alt' attributes for relevant images to make the site accessible
--add appropriate page title
+-test on page links and correct errors if necessary</br>
+-add 'alt' attributes for relevant images to make the site accessible</br>
+-add appropriate page title</br>
 
 CSS
--consolidate css selectors where possible to avoid repeating code
--inspect code to ensure it follows semantic structure
--add comments to show different elements/sections of the page
+-consolidate css selectors where possible to avoid repeating code</br>
+-inspect code to ensure it follows semantic structure</br>
+-add comments to show different elements/sections of the page</br>
 
 ### Page Screenshot
 ![Horiseon home page](/assets/images/screenshot.png "Horiseon webpage")
