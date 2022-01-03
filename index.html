@@ -25,60 +25,63 @@
         </div>
     </div>
     <div class="hero"></div>
-    <div class="content">
-        <!-- added id to correct broken page link, added alt attributes to images-->
-        <div id="search-engine-optimization" class="search-engine-optimization">
+    <main class="content">
+        <!-- changed class for each section to consolidate css selectors -->
+        <section id="search-engine-optimization" class="main-section">
+            <!-- added id to correct broken page link, added alt attributes to images-->
             <img src="./assets/images/search-engine-optimization.jpg" alt="A wooden table with keyboard, magnifying glass, coffee, pens in a cup and a notepad in the center" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        </section>
+        <section id="online-reputation-management" class="main-section">
             <img src="./assets/images/online-reputation-management.jpg" alt="A person working at laptop showing charts and graphs with the title 'reputation'" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        </section>
+        <section id="social-media-marketing" class="main-section">
             <img src="./assets/images/social-media-marketing.jpg" alt="Several people at a conference table with multiple social media platform references and icons" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </div>
-    <div class="benefits">
-        <div class="benefit-lead">
+        </section>
+    </main>
+    <aside class="benefits">
+        <!-- changed class name to consolidate css selectors -->
+       <div class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <!-- images in this <aside> element don't need alt attributes, they won't help in understanding the page -->
+            <img src="./assets/images/lead-generation.png"></img>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div class="benefit-brand">
+       </div>
+        <div class="benefit">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png"></img>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit">
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside>
+    <footer>
         <!-- changed heading from h2 to h4 to make heading flow semantically correct -->
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
